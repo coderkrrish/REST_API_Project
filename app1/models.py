@@ -15,4 +15,7 @@ class Student(models.Model):
     
     class Meta:
         db_table = "B8_REST_Student"
-        
+
+class employee(models.Model):
+    emp_name = models.CharField(max_length=50)
+    
